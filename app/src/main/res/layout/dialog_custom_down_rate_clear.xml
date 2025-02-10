@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="20dp"
+    >
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原定时时间:"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_old_set_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0天0时1分"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/dp_10"/>
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="粮仓名:"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/et_nHour"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+            android:inputType="number"
+            android:gravity="center"/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分钟"
+            android:textSize="20sp"
+            />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_nMinute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+            android:inputType="number"
+            android:gravity="center"/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分钟"
+            android:textSize="20sp" />-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="指令映射文件ID:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_nSecond"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+            android:inputType="number"
+            android:gravity="center"/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分钟"
+            android:textSize="20sp" />-->
+    </LinearLayout>
+<!--    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认修改"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/btn_card"
+        android:textColor="@color/red"
+        />-->
+</LinearLayout>

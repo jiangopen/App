@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".A_XinQiaoPackage.Fragment.HuoWei.BaoGuanYuanFragment">
+
+    <TextView
+        android:id="@+id/txt_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="编辑提交"
+        android:background="@drawable/tv_round_corner_background"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="姓名"/>
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="刘梦强"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="仓名"/>
+        <EditText
+            android:id="@+id/txt_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="男"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="籍贯"/>
+        <EditText
+            android:id="@+id/txt_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="安徽淮南"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="出生年月" />
+        <EditText
+            android:id="@+id/txt_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2001-13-32"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="政治面貌"/>
+        <EditText
+            android:id="@+id/txt_dang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="党员"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="专业年限"/>
+        <EditText
+            android:id="@+id/txt_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2024—10—11"
+            android:textSize="10sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="学历" />
+        <EditText
+            android:id="@+id/txt_xueli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="本科" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="毕业学院"/>
+        <EditText
+            android:id="@+id/txt_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="安徽医科大学"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="学习专业"/>
+        <EditText
+            android:id="@+id/txt_zhuanye"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="计算机技术"
+            android:textSize="10sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="职业资格" />
+        <EditText
+            android:id="@+id/txt_zhiyezige"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="保管员"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="证书编号"/>
+        <EditText
+            android:id="@+id/txt_bianhao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="20215644788894556548844"
+            android:maxLines="1"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="专业年限"/>
+        <EditText
+            android:id="@+id/txt_baoguanjibie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="甲级"
+            android:textSize="10sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_other"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:textIsSelectable="true"
+        android:inputType="none"
+        android:text="粮库粮油保管员是所管仓暾(罐)粮油储存安全的直接责任人，负贵做好所管仓廒(蠼)的粮油保管工作。具体职责如下:\n
+
+1、认真贯彻“以防为主，综合防治”的保粮方针，严格遵守《粮油储藏技术规范》、《粮油仓储管理办法》、《粮油储存安全责任暂行规定》《粮库安全生产守则》、《粮油安全储存守则》对责任仓房粮油数量和质量安全负责。\n
+
+2、认真执行《安徽省級储备粮管理办法》，确保省级储备粮保管达到“一符、三专、四落实”要求，保证省级储备粮数量真实、质量良好。\n
+
+3、严格遵哥各项仓储管理制度和安全生产作业规程。\n
+
+4、粮油入仓(耀)前，检验责任仓康(耀)及相关设施设备是否完好、可用:坚守入仓岗位，对入仓粮油逐车检查内部质量，配合入粮(油)作业及时进行整理，使入仓(蠼)粮油达到储存安全的求。\n
+
+5、严格仓库作业现场管理，杜绝违章作业，确保粮油进出库装卸作业安全，是粮油进出库现场现场管理责任人。\n
+
+6、粮油入仓(蠼)后，及时建立粮油保管账，准确填写责任仓康(蠼)的账、卡、簿，并对其完整性、真实性、准确性负责。每天登记进、出库数量，坚持每天和计量员核对进、出仓数字，每月底和总保管核对数量并签字确认，做到日清月结、账实相符、账账相符。\n
+
+7、粮油储存期间，严格按照要求进行日常检查，密切关注储藏粮情变化，发现储粮安全隐患及时上报、处置，隐患处置方案经批准后配合落实。坚持“-、三、七”粮情检查制度，异常天气(风、雨、雪)随时检查粮情，每次检查和作业完成后，及时、如实填写“工作日志”。\n
+
+8、储粮仓库“一卡一图”(储各粮油专卡、风道测溫点示意图)、“两牌两案”(岗位责任牌、储备粮专牌、分仓保管员档案、仓房基本情况材案、)“三簿”(粮情检查记录簿、科学保粮记录薄、分仓保管账薄)齐全，记录薄内容定期更新，字迹清楚，书写规范。\n
+
+9、仓库四防设施齐全有效。定期清洁仓房卫生，保持仓内“三净一平”(门窗净、梁架净、四壁净、粮面平整)，仓外“四不留”(污水、杂草、垃圾、散落粮粒)。\n
+
+10、正确使用、维护仓储设施、器材，并实行定额管理，节约费用，控制支出。\n
+
+11、按时出席粮情分析会，做好粮面平整、通风、压益、密闭、排温、扦样、制冷、充气调等保管技术工作。做好储粮虫害防治工作，推广应用储粮新技术。\n
+
+12、熟练掌握仓库、储粮、粮情基本情况，仓情、粮情汇报“-口清”。\n
+
+13、按时究成各种表报工作;保管粮油出仓完毕，立即填报《粮油溢余、损耗报表》，详细分析原因，保管粮油发生短少负责赔偿。" />
+</LinearLayout>

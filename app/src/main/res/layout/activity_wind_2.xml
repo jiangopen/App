@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/login_line_color">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fffffbfa"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+        <TextView
+            android:id="@+id/cangkuname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:text="请选择"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/sayying"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/cangkuname"
+            android:background="@drawable/btn_style_two"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/green_500"
+            android:text="没有合适的通风模式"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/select"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/zzz_select" />
+        <Button
+            android:id="@+id/btn_tongfeng_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/select"
+            android:background="@drawable/btn_style_one"
+            android:gravity="center"
+            android:text="切换为手动通风"
+            android:textSize="12sp"
+            android:textColor="@color/red"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btn_tongfeng_smart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/select"
+            android:background="@drawable/btn_style_two"
+            android:gravity="center"
+            android:text="切换为智能通风"
+            android:textSize="12sp"
+            android:textColor="@color/blue"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/select"
+        android:background="@drawable/btn_style_one"
+        android:gravity="center"
+        android:text="放大/缩小"
+        android:textSize="12sp"
+        android:textColor="@color/red" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center">
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/line_color"
+            android:visibility="visible"
+            app:srlAccentColor="@android:color/white"
+            app:srlEnableLoadMore="false"
+            app:srlHeaderMaxDragRate="2.5"
+            app:srlPrimaryColor="@android:color/darker_gray">
+            <com.example.multiplegranarymanager.MyWebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:foregroundGravity="center"/>
+
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </RelativeLayout>
+</LinearLayout>
+    <!--<LinearLayout-->
+    <!--android:id="@+id/wu_shebei1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+    <!--android:visibility="gone">-->
+    <!--<ImageView-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:src="@drawable/wuxiaodingdan3" />-->
+    <!--<TextView-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginTop="10dip"-->
+    <!--    android:text="还未添加轴温监测设备哦"-->
+    <!--    android:textColor="@color/tishi"-->
+    <!--    android:textSize="18dip" />-->
+    <!--</LinearLayout>-->

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--主题配色  主色调  无松绿-->
+    <color name="first_top_wsl">#6A8D6D</color>
+    <!--主题配色  副色调  荔肉白-->
+    <color name="first_low_zrb">#FFF9EB</color>
+
+    <!--配色1  主色调  绿灰-->
+    <color name="second_top_lh">#314A43</color>
+    <!--配色1  副色调  月影-->
+    <color name="second_low_yy">#C0C4C3</color>
+
+    <!--配色2  主色调  松石-->
+    <color name="third_top_ss">#75C1C4</color>
+    <!--配色2  副色调  品绿-->
+    <color name="third_low_pl">#00828B</color>
+
+    <!--配色3  主色调  绀紫-->
+    <color name="fourth_top_gz">#33224F</color>
+    <!--配色3  副色调  余白-->
+    <color name="fourth_low_yb">#D5DBC5</color>
+
+    <!--配色4  主色调  木槿-->
+    <color name="fifth_top_mj">#B979B1</color>
+    <!--配色4  副色调  葱青-->
+    <color name="fifth_low_cq">#FDF1BC</color>
+
+    <!--配色5  主色调  青黛-->
+    <color name="sixth_top_qd">#45465E</color>
+    <!--配色5  副色调  荷花白-->
+    <color name="sixth_mid_hhb">#FDEDDD</color>
+    <!--配色5  副色调  雪青-->
+    <color name="sixth_low_xq">#BBB7D2</color>
+
+    <!--配色6  主色调  沙青-->
+    <color name="seventh_top_sq">#2B5E7D</color>
+    <!--配色6  副色调  藕合色-->
+    <color name="seventh_low_ohs">#E4C6D0</color>
+
+    <!--配色7  主色调  宝蓝-->
+    <color name="eightth_top_bl">#4B5CC4</color>
+    <!--配色7  副色调  淡青-->
+    <color name="eightth_low_dq">#D3E0F3</color>
+
+    <!--配色8  主色调  水绿-->
+    <color name="nineth_top_sl">#8cc269</color>
+    <!--配色8  主色调  蔚蓝-->
+    <color name="nineth_top_wl">#29b7cb</color>
+    <!--配色8  副色调  淡绯-->
+    <color name="nineth_low_df">#f2cac9</color>
+
+    <!--配色9  主色调  芽绿-->
+    <color name="tenth_top_yl">#96c24e</color>
+    <!--配色9  副色调  茉莉黄-->
+    <color name="tenth_low_mlh">#f8df72</color>
+
+    <!--配色10  主色调  玉色-->
+    <color name="evenleth_top_ys">#8fc5bf</color>
+    <!--配色10  副色调  米灰彩-->
+    <color name="evenleth_low_mhc">#e4e4dc</color>
+
+    <!--配色11  主色调  月灰色-->
+    <color name="twelveth_top_yhs">#efe6e6</color>
+    <!--配色11  副色调  大红色-->
+    <color name="twelveth_low_dhs">#e60012</color>
+
+    <!--配色12  主色调  远山紫-->
+    <color name="thirth_top_ysz">#ccccd6</color>
+    <!--配色12  副色调  螺甸紫-->
+    <color name="thirthh_low_ldz">#74759b</color>
+
+    <!--配色13  主色调  扶光-->
+    <color name="foorteenth_top_fg">#f0c2a2</color>
+    <!--配色13  副色调  暮山紫-->
+    <color name="foorteenth_low_msz">#615f74</color>
+
+    <!--配色14  主色调  玉白-->
+    <color name="fivteenth_top_yb">#FFF7F0</color>
+    <!--配色14  副色调  宫墙红-->
+    <color name="fivteenth_low_gqh">#D63200</color>
+
+    <!--配色15  主色调  姜红-->
+    <color name="sixteenth_top_jh">#eeb8c3</color>
+    <!--配色15  副色调  湖水蓝-->
+    <color name="sixteenth_low_hsl">#b0d5df</color>
+
+    <!--配色16  主色调  修灰-->
+    <color name="seventeenth_top_xhs">#9fa39a</color>
+    <!--配色16  副色调  梧枝绿-->
+    <color name="seventeenth_low_wzl">#69a794</color>
+
+    <!--中国传统色  云峰白-->
+    <color name="china_color_001_yfb">#D8E3E7</color>
+    <!--中国传统色  穹灰-->
+    <color name="china_color_002_qh">#C4D7D6</color>
+    <!--中国传统色  月白-->
+    <color name="china_color_003_yb">#EEF7F2</color>
+    <!--中国传统色  象牙白-->
+    <color name="china_color_004_xyb">#FFFEF8</color>
+    <!--中国传统色  雪白-->
+    <color name="china_color_005_xb">#FFFEF9</color>
+    <!--中国传统色  乳白-->
+    <color name="china_color_006_rb">#F9F4DC</color>
+    <!--中国传统色  海参灰-->
+    <color name="china_color_007_hsh">#FFFEFA</color>
+    <!--中国传统色  菊蕾白-->
+    <color name="china_color_008_jlb">#E9DDB6</color>
+    <!--中国传统色  银白-->
+    <color name="china_color_009_yb">#F1F0ED</color>
+    <!--中国传统色  蛙肉白-->
+    <color name="china_color_010_wrb">#F9F1DB</color>
+    <!--中国传统色  鱼肚白-->
+    <color name="china_color_011_hsh">#F7F4ED</color>
+    <!--中国传统色  汉白玉-->
+    <color name="china_color_012_hby">#F8F4ED</color>
+    <!--中国传统色  粉白-->
+    <color name="china_color_013_fb">#FBF2E3</color>
+    <!--中国传统色  珍珠灰-->
+    <color name="china_color_014_zzh">#E4DFD7</color>
+    <!--中国传统色  浅灰-->
+    <color name="china_color_015_qh">#DAD4CB</color>
+    <!--中国传统色  铅灰-->
+    <color name="china_color_016_qh">#BBB5AC</color>
+    <!--中国传统色  橄榄灰-->
+    <color name="china_color_017_glh">#503E2A</color>
+    <!--中国传统色  猴毛灰-->
+    <color name="china_color_018_hsh">#97846C</color>
+    <!--中国传统色  深灰-->
+    <color name="china_color_019_sh">#81776E</color>
+    <!--中国传统色  玛瑙灰-->
+    <color name="china_color_020_mnh">#CFCCC9</color>
+    <!--中国传统色  瓦灰-->
+    <color name="china_color_021_wh">#867E76</color>
+    <!--中国传统色  夜灰-->
+    <color name="china_color_022_yh">#847C74</color>
+
+
+    <!-- 新版登录模块-->
+    <color name="login_line_color">#dededf</color>
+    <color name="login_input_active">#31b968</color>
+    <color name="login_other_color">#cacaca</color>
+    <color name="account_input_bg_color">#33ffffff</color>
+    <color name="account_lock_bg">#ff43815c</color>
+    <color name="account_lock_font_color">#FF68997C</color>
+    <color name="account_input_color">#c9c9c9</color>
+    <color name="account_pressed_true">#14b94d</color>
+    <color name="bg_press">#ebebeb</color>
+    <color name="account_pressed_f">#4d84d3</color>
+
+    <color name="all_shadow_color">#EeEeEe</color>
+
+    <color name="bg_press_material">#d4d4d4</color>
+
+    <color name="all_text_color">#494D4d</color>
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+
+    <!-- 常用颜色值 -->
+    <!--<color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>-->
+    <color name="black_alpha_128">#80000000</color>
+    <color name="list_item_background_pressed">#FCFCFC</color>
+
+    <color name="color1">#303841</color>
+    <color name="color2">#00adb5</color>
+    <color name="color4">#ff5722</color>
+    <color name="color3">#494d4d</color>
+    <color name="color5">#34495e</color>
+    <color name="color7">#3498db</color>
+    <color name="color6">#303233</color>
+    <color name="colorPrimary">#008577</color>
+    <!--#008577-->
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="primary">#3C515C</color>
+    <color name="primary_dark">#142E3C</color>
+    <color name="line_color">#e7e7e7</color>
+    <color name="red">#F44336</color>
+    <color name="blue">#0000FF</color>
+    <color name="accent">#40C4FF</color>
+    <color name="black_20">#33000000</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="tishi">#707070</color>
+    <color name="card_name_bg">#00aacc</color>
+    <color name="text_enabled">#FFFFFFFF</color>
+    <color name="text_disabled">#4DFFFFFF</color>
+
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#BF526069</color>
+
+    <color name="medium_text_enabled">#FF000000</color>
+    <color name="medium_text_disabled">#4D000000</color>
+
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="teal_500">#009688</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_green_500">#8BC34A</color>
+    <color name="light_blue">#1e9d93</color>
+    <color name="all_background_color">#EFEFEF</color>
+
+    <integer-array name="custom_tab_colors">
+        <item>@color/light_blue_500</item>
+        <item>@color/cyan_500</item>
+        <item>@color/teal_500</item>
+        <item>@color/green_500</item>
+        <item>@color/light_green_500</item>
+    </integer-array>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.multiplegranarymanager'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.multiplegranarymanager"
+        minSdk 27
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.4"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    //okhttp
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    // 数据处理
+    implementation 'com.google.code.gson:gson:2.10'
+    //MPAChart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    //加载中
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'com.github.Blankeer:ProgressButton:0.1.3'
+    //BadgeView提示图标
+    implementation 'q.rorbin:badgeview:1.1.3'
+    //dialog
+    implementation 'com.kongzue.dialog:dialog:2.5.2'
+    //dialog
+    implementation 'com.github.f0ris.sweetalert:library:1.5.1'
+    //dialog
+    implementation 'com.github.andyxialm:ColorDialog:1.0.0'
+    //下拉刷新
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    //cardView
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'org.kymjs.kjframe:kjframe:2.4.6.2'
+    // 开源的RecyclerViewAdapter界面组件
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+    //左滑删除recyclerview
+    implementation 'com.yanzhenjie.recyclerview:support:1.3.2'
+    //calendarview
+    implementation 'com.haibin:calendarview:3.6.6'
+    //SmartTable
+    implementation 'com.github.huangyanbin:SmartTable:2.0'
+    //导出excel
+    implementation group: 'net.sourceforge.jexcelapi', name: 'jxl', version: '2.6.12'
+    // 分享
+    implementation 'gdut.bsx:share2:0.9.3'
+}

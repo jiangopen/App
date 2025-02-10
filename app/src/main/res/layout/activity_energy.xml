@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".A_XinQiaoPackage.Activity.EnergyActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color2">
+        <!--    <TextView-->
+        <!--        android:id="@+id/time"-->
+        <!--        android:layout_width="40dp"-->
+        <!--        android:layout_height="35dp"-->
+        <!--        android:background="@mipmap/calendar3"-->
+        <!--        android:layout_marginLeft="15dp"-->
+        <!--        android:layout_centerVertical="true"-->
+        <!--        android:textColor="@color/black"-->
+        <!--        android:elevation="10dp"-->
+        <!--        android:textSize="16sp"/>-->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/honen"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="能耗测试"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#fffffbfa"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp">
+                <ImageView
+                    android:id="@+id/select"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/zzz_select" />
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@id/name"
+                    android:layout_centerHorizontal="true"
+                    android:text="P13"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:id="@+id/test"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:background="@mipmap/calendar3"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:text="检测"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="总有功电能"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/txt_all_energy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="——KWH"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/member"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@drawable/list_divider"
+                android:dividerHeight="0.5dp"
+                android:fadingEdge="none"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
