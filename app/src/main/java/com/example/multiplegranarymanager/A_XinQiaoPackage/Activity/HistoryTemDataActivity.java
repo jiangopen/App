@@ -69,7 +69,6 @@ public class HistoryTemDataActivity extends AppCompatActivity implements View.On
     int selectWhich = 0;
     private com.example.multiplegranarymanager.Dialog.SuoPingDialog SuoPingDialog;
     GranaryListBean.Data selectProduct;
-    String Flag = "cuowu";
     private List<HistoryBean.Data> HistoryListData = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
